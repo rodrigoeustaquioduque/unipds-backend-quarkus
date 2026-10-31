@@ -11,7 +11,7 @@ import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 
 import java.time.temporal.ChronoUnit;
 
-@RegisterRestClient(baseUri = "https://s1wapi.info/api/")
+@RegisterRestClient(baseUri = "https://swapi.info/api/")
 public interface StarWarsService {
 
 
